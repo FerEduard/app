@@ -39,10 +39,10 @@
         <div class="col-md-4 col-xs-12">
         <div class="row">
         	<div class="col-xs-12">
-                <div id="imagen-nahual" style="height:300px; margin-top:10px"> </div>
+                <div id="imagen-nahual" style="height:250px; margin-top:10px"> </div>
             </div>
             <div class="col-xs-12">
-                <div id="imagen-numero" style="height:300px; margin-top:10px"> </div>
+                <div id="imagen-numero"> </div>
             </div>
         </div>
         </div>
