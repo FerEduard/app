@@ -38,13 +38,18 @@
               <button type="button" class="btn btn-default">Omitir</button>
             </form>
         </div>
-        <div class="col-md-6 col-xs-12">
-        	<div id="imagen-nahual" style="height:300px; margin-top:10px"> </div>
+        <div class="col-md-4 col-xs-12">
+        <div class="row">
+        	<div class="col-xs-12">
+                <div id="imagen-nahual" style="height:300px; margin-top:10px"> </div>
+            </div>
+            <div class="col-xs-12">
+                <div id="imagen-numero" style="height:300px; margin-top:10px"> </div>
+            </div>
         </div>
-        <div class="col-md-6 col-xs-12">
-        	<div id="imagen-numero" style="height:300px; margin-top:10px"> </div>
         </div>
-        <div class="col-xs-12">
+        
+        <div class="col-md-8 col-xs-12">
         	<div id="imagen-descripcion" style="margin-top:10px"> </div>
         </div>
     </div>
