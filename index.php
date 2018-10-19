@@ -38,10 +38,14 @@
               <button type="button" class="btn btn-default">Omitir</button>
             </form>
         </div>
+        <div class="col-md-6 col-xs-12">
+        	<div id="imagen-nahual" style="height:300px; margin-top:10px"> </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+        	<div id="imagen-numero" style="height:300px; margin-top:10px"> </div>
+        </div>
         <div class="col-xs-12">
-        	<div id="imagen-nahual" style="height:300px; margin-top:10px">
-            
-            </div>
+        	<div id="imagen-descripcion" style="margin-top:10px"> </div>
         </div>
     </div>
 </div>
@@ -63,7 +67,9 @@
 					})
 				 .done(function( data, textStatus, jqXHR ) {
 						console.log( "Resultado: " +  data);
-						$( "#imagen-nahual" ).html('<img src="nahual/'+data+'.jpg" alt="Nahual">');
+						$( "#imagen-nahual" ).html('<img class="center-block" src="nahual/'+data+'.jpg" alt="Nahual">');
+						$( "#imagen-numero" ).html('<img class="center-block" src="nahual/m'+data+'.jpg" alt="Nahual">');
+						$( "#imagen-descripcion" ).html('<img class="center-block" src="nahual/d'+data+'.jpg" alt="Nahual">');
 				 	})
 				 .fail(function( jqXHR, textStatus, errorThrown ) {
 						 if ( console && console.log ) {
