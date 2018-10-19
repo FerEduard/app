@@ -1,3 +1,8 @@
+body {
+    background-image:  url(../Backgound/glifos%20fondo%202.jpeg);
+    background-repeat: repeat;
+    background-color: #cccccc;
+}
 header {
   text-align: center;
   background: #272323;
@@ -35,11 +40,15 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background:#252525;
+  
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  background-image: url(../Backgound/inicio.png);
+  background-repeat: no-repeat;
+ background-color: #fea42b;
+	
 }
 .navbar-custom .navbar-brand {
   color: white;
@@ -54,10 +63,10 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #272323;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #3FB8EB;
+  color: white;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -223,3 +232,4 @@ body{
 	border:solid 1px;
 	border-color:#BCB5B6;
 }
+

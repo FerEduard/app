@@ -27,15 +27,6 @@ if(!isset($_SESSION['user'])){
                     <li>
                         <a href="index.php">Inicio</a>
                     </li>
-                    <li>
-                        <a href="practica.php">Practica</a>
-                    </li>
-                    <li>
-                        <a href="info.php">Informacion</a>
-                    </li>
-                    <li>
-                        <a href="inc/cerraSession.php">Salir</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
